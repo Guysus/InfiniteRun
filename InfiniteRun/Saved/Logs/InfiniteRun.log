@@ -2045,3 +2045,22 @@ Script Stack (0 frames) :
 [2024.02.17-02.22.18:814][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.27 sec)
 [2024.02.17-02.22.18:816][195]AssetCheck: New page: Asset Save: BP_Player
 [2024.02.17-02.22.18:816][195]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.17-02.29.38:542][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.02.17-02.29.40:194][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.17-02.30.02:495][348]LogSlate: External Image Picker: DecompressImage failed
+[2024.02.17-02.30.15:171][783]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.17-02.30.15:174][783]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.17-02.30.19:520][286]BlueprintLog: New page: Compile BP_Player
+[2024.02.17-02.30.19:559][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.02.17-02.32.19:656][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.17-02.32.19:660][694]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.32.19:712][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.17-02.32.19:715][694]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.17-02.32.19:715][694]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerC266F4984A00420911A011942A83F74A.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.17-02.32.19:718][694]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.33 sec)
+[2024.02.17-02.32.19:722][694]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.17-02.32.19:722][694]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.17-02.32.21:129][848]BlueprintLog: New page: Compile BP_Player
+[2024.02.17-02.32.21:162][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.02.17-02.32.39:393][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.17-02.33.18:544][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
