@@ -2064,3 +2064,73 @@ Script Stack (0 frames) :
 [2024.02.17-02.32.21:162][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
 [2024.02.17-02.32.39:393][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
 [2024.02.17-02.33.18:544][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.02.17-02.35.38:769][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-02.35.40:805][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.17-02.35.40:808][378]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.014
+[2024.02.17-02.35.40:808][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.17-02.35.40:808][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.17-02.35.40:808][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.02.17-02.35.40:811][378]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto3
+[2024.02.17-02.35.40:811][378]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto33007345647AF5AD6C1938FAF8010C380.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2024.02.17-02.35.40:811][378]LogFileHelpers: Auto-saving content packages took 0.003
+[2024.02.17-02.36.12:192][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.02.17-02.36.12:199][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.36.12:241][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.17-02.36.12:244][ 25]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.17-02.36.12:244][ 25]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player55076EC3459654C2BBAA3AB20CB0B2FB.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.17-02.36.12:248][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1.38 sec)
+[2024.02.17-02.36.12:250][ 25]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.17-02.36.12:250][ 25]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.17-02.36.32:612][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.17-02.36.55:416][834]BlueprintLog: New page: Compile BP_Player
+[2024.02.17-02.36.55:436][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.02.17-02.37.26:822][802]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.17-02.37.26:827][802]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.17-02.37.26:831][802]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.17-02.37.26:837][803]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.17-02.37.42:941][761]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_InfiniteRun
+[2024.02.17-02.37.42:946][761]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.17-02.38.06:372][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.17-02.38.06:372][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-02.38.06:372][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-02.38.06:522][218]LogViewport: Scene viewport resized to 2064x1516, mode Windowed.
+[2024.02.17-02.38.20:377][557]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.101 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5548 files in 7306 folders with total size 5647 MiB.
+[2024.02.17-02.38.25:943][672]BlueprintLog: New page: Compile BP_InfiniteRun
+[2024.02.17-02.38.25:966][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.02.17-02.38.30:523][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.17-02.38.30:528][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.38.30:570][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_InfiniteRun" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset" SILENT=true
+[2024.02.17-02.38.30:572][194]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_InfiniteRun
+[2024.02.17-02.38.30:572][194]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_InfiniteRun7C8284C94406E77D7D985AB61929359B.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset'
+[2024.02.17-02.38.30:578][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.43 sec)
+[2024.02.17-02.38.30:579][194]AssetCheck: New page: Asset Save: BP_InfiniteRun
+[2024.02.17-02.38.30:579][194]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.17-02.39.50:553][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.17-02.39.50:559][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.39.50:603][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_01" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.17-02.39.50:633][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.02.17-02.39.50:635][435]LogSavePackage: Moving output files for package: /Game/Level_01
+[2024.02.17-02.39.50:636][435]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Level_011CAC3A5A45B215C9B73475B152F74615.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Level_01.umap'
+[2024.02.17-02.39.50:641][435]LogFileHelpers: Saving map 'Level_01' took 0.038
+[2024.02.17-02.39.50:645][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 1.52 sec)
+[2024.02.17-02.39.50:646][435]AssetCheck: New page: Asset Save: Level_01
+[2024.02.17-02.39.50:646][435]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_01.Level_01
+[2024.02.17-02.40.10:297][941]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.02.17-02.40.15:337][516]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.02.17-02.40.15:337][516]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.02.17-02.40.15:339][516]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Level_01.Level_01:PersistentLevel.PlayerStart_0
+[2024.02.17-02.40.15:339][516]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.17-02.40.15:339][516]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Level_01.Level_01:PersistentLevel.PlayerStart_0
+[2024.02.17-02.40.15:339][516]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.17-02.40.15:354][516]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.17-02.40.58:823][237]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.17-02.41.02:425][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.02.17-02.41.02:430][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.41.02:469][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_01" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.17-02.41.02:499][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.02.17-02.41.02:502][512]LogSavePackage: Moving output files for package: /Game/Level_01
+[2024.02.17-02.41.02:502][512]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Level_01C5BB4F314BEB411F38FE9793BD2F4146.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Level_01.umap'
+[2024.02.17-02.41.02:507][512]LogFileHelpers: Saving map 'Level_01' took 0.039
+[2024.02.17-02.41.02:511][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 1.60 sec)
+[2024.02.17-02.41.02:512][512]AssetCheck: New page: Asset Save: Level_01
+[2024.02.17-02.41.02:512][512]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_01.Level_01
