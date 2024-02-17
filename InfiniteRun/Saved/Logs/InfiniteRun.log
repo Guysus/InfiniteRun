@@ -1919,3 +1919,129 @@ Script Stack (0 frames) :
 [2024.02.17-02.04.46:727][270]AssetCheck: New page: Asset Save: multiple assets
 [2024.02.17-02.04.46:727][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2024.02.17-02.04.46:727][270]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaJump.A_NinjaJump
+[2024.02.17-02.05.43:125][817]LogEditorTransaction: Undo Modify Component Scale
+[2024.02.17-02.05.50:517][647]LogEditorTransaction: Undo Modify Component Scale
+[2024.02.17-02.05.55:125][112]BlueprintLog: New page: Compile BP_Player
+[2024.02.17-02.05.55:160][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.02.17-02.07.54:794][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.17-02.07.54:797][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.07.54:843][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.17-02.07.54:845][974]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.17-02.07.54:845][974]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player160C72BD44F80DB7B76D7C80895492AE.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.17-02.07.54:849][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 966 ms)
+[2024.02.17-02.07.54:853][974]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.17-02.07.54:853][974]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.17-02.10.39:489][187]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Ninja.Ninja
+[2024.02.17-02.10.39:587][187]LogViewport: Scene viewport resized to 2857x1947, mode Windowed.
+[2024.02.17-02.12.11:588][155]LogContentBrowser: Deferred new asset file creation: Ninja1
+[2024.02.17-02.12.11:600][155]LogContentBrowser: Creating deferred item: Ninja1
+[2024.02.17-02.12.11:629][156]LogContentBrowser: Renaming the item being created (Deferred Item: Ninja1).
+[2024.02.17-02.12.26:936][993]LogContentBrowser: Attempting asset rename: Ninja1 -> A_NinjaPunch11
+[2024.02.17-02.12.26:937][993]LogContentBrowser: End creating deferred item Ninja1
+[2024.02.17-02.12.29:903][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.12.29:938][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaPunch11" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch11.uasset" SILENT=true
+[2024.02.17-02.12.29:939][348]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaPunch11
+[2024.02.17-02.12.29:939][348]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaPunch111BC899814E85BB34E42818AEDE34FD91.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch11.uasset'
+[2024.02.17-02.12.29:945][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.00 sec)
+[2024.02.17-02.12.29:945][348]AssetCheck: New page: Asset Save: A_NinjaPunch11
+[2024.02.17-02.12.29:945][348]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaPunch11.A_NinjaPunch11
+[2024.02.17-02.13.19:946][307]LogContentBrowser: Deferred new asset file creation: Ninja1
+[2024.02.17-02.13.19:965][307]LogContentBrowser: Creating deferred item: Ninja1
+[2024.02.17-02.13.19:976][308]LogContentBrowser: Renaming the item being created (Deferred Item: Ninja1).
+[2024.02.17-02.13.33:883][976]LogContentBrowser: Attempting asset rename: Ninja1 -> A_NinjaPunch2
+[2024.02.17-02.13.33:884][976]LogContentBrowser: End creating deferred item Ninja1
+[2024.02.17-02.13.46:718][514]LogContentBrowser: Attempting asset rename: A_NinjaPunch11 -> A_NinjaPunch1
+[2024.02.17-02.13.46:740][514]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.13.46:785][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaPunch1" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch1.uasset" SILENT=true
+[2024.02.17-02.13.46:786][514]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaPunch1
+[2024.02.17-02.13.46:786][514]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaPunch1BC97DA4A497002BAFF6A11A46724DA36.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch1.uasset'
+[2024.02.17-02.13.46:793][514]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.06 sec)
+[2024.02.17-02.13.46:810][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.02.17-02.13.46:822][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.17-02.13.46:831][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.02.17-02.13.46:833][514]AssetCheck: New page: Asset Save: A_NinjaPunch1
+[2024.02.17-02.13.46:833][514]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaPunch1.A_NinjaPunch1
+[2024.02.17-02.13.48:896][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.13.48:953][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaPunch2" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch2.uasset" SILENT=true
+[2024.02.17-02.13.48:954][755]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaPunch2
+[2024.02.17-02.13.48:954][755]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaPunch22884FC264B07FA5FD54A429A95C06093.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaPunch2.uasset'
+[2024.02.17-02.13.48:960][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.12 sec)
+[2024.02.17-02.13.48:960][755]AssetCheck: New page: Asset Save: A_NinjaPunch2
+[2024.02.17-02.13.48:960][755]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaPunch2.A_NinjaPunch2
+[2024.02.17-02.15.34:559][304]LogContentBrowser: Deferred new asset file creation: Ninja1
+[2024.02.17-02.15.34:578][304]LogContentBrowser: Creating deferred item: Ninja1
+[2024.02.17-02.15.34:621][305]LogContentBrowser: Renaming the item being created (Deferred Item: Ninja1).
+[2024.02.17-02.15.47:899][899]LogContentBrowser: Attempting asset rename: Ninja1 -> A_NinjaTrip1
+[2024.02.17-02.15.47:899][899]LogContentBrowser: End creating deferred item Ninja1
+[2024.02.17-02.15.59:615][290]LogContentBrowser: Attempting asset rename: A_NinjaTrip1 -> A_NinjaTrip
+[2024.02.17-02.15.59:638][290]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.15.59:686][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaTrip" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaTrip.uasset" SILENT=true
+[2024.02.17-02.15.59:686][290]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaTrip
+[2024.02.17-02.15.59:687][290]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaTrip60523CF34C162F8F748295998F81FDD1.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaTrip.uasset'
+[2024.02.17-02.15.59:693][290]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 1.18 sec)
+[2024.02.17-02.15.59:710][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.02.17-02.15.59:719][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.17-02.15.59:728][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.02.17-02.15.59:729][290]AssetCheck: New page: Asset Save: A_NinjaTrip
+[2024.02.17-02.15.59:729][290]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaTrip.A_NinjaTrip
+[2024.02.17-02.16.05:705][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.02.17-02.16.13:372][979]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.17-02.16.13:388][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.02.17-02.16.13:399][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.02.17-02.16.13:408][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.17-02.16.20:689][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.17-02.16.22:178][827]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.17-02.16.22:194][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.17-02.16.22:205][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.17-02.16.22:215][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.02.17-02.18.07:308][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.02.17-02.18.07:310][336]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.012
+[2024.02.17-02.18.07:310][336]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.17-02.18.07:310][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.17-02.18.07:310][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.02.17-02.18.07:312][336]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto2
+[2024.02.17-02.18.07:312][336]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto282BCF261437D924005B7A886F81883FC.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto2.uasset'
+[2024.02.17-02.18.07:313][336]LogFileHelpers: Auto-saving content packages took 0.003
+[2024.02.17-02.18.40:318][295]LogViewport: Scene viewport resized to 2857x1929, mode Windowed.
+[2024.02.17-02.18.41:513][436]LogViewport: Scene viewport resized to 2857x1947, mode Windowed.
+[2024.02.17-02.19.57:410][529]LogViewport: Scene viewport resized to 2857x1929, mode Windowed.
+[2024.02.17-02.20.08:564][847]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/A_NinjaTrip.A_NinjaTrip
+[2024.02.17-02.20.08:565][847]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-02.20.08:565][847]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-02.20.08:621][847]LogViewport: Scene viewport resized to 3056x1753, mode Windowed.
+[2024.02.17-02.20.33:276][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.17-02.20.40:671][739]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.17-02.20.43:035][  7]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-02.20.43:035][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-02.20.51:812][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.02.17-02.20.53:210][ 40]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.17-02.20.53:228][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.02.17-02.20.53:238][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.17-02.20.53:248][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.02.17-02.21.09:714][998]LogViewport: Scene viewport resized to 2857x1947, mode Windowed.
+[2024.02.17-02.21.12:149][289]LogViewport: Scene viewport resized to 2857x1929, mode Windowed.
+[2024.02.17-02.21.16:707][833]LogViewport: Scene viewport resized to 2857x1947, mode Windowed.
+[2024.02.17-02.21.25:811][898]LogContentBrowser: Deferred new asset file creation: Ninja1
+[2024.02.17-02.21.25:822][898]LogContentBrowser: Creating deferred item: Ninja1
+[2024.02.17-02.21.25:864][899]LogContentBrowser: Renaming the item being created (Deferred Item: Ninja1).
+[2024.02.17-02.21.41:425][767]LogContentBrowser: Attempting asset rename: Ninja1 -> A_NinjaTrip
+[2024.02.17-02.21.41:426][767]LogContentBrowser: End creating deferred item Ninja1
+[2024.02.17-02.21.49:018][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.21.49:060][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaTrip" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaTrip.uasset" SILENT=true
+[2024.02.17-02.21.49:061][677]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaTrip
+[2024.02.17-02.21.49:062][677]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaTripA34870FC42F22B518843339E3878202D.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaTrip.uasset'
+[2024.02.17-02.21.49:066][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.22 sec)
+[2024.02.17-02.21.49:067][677]AssetCheck: New page: Asset Save: A_NinjaTrip
+[2024.02.17-02.21.49:067][677]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaTrip.A_NinjaTrip
+[2024.02.17-02.21.52:379][ 64]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/A_NinjaTrip.A_NinjaTrip
+[2024.02.17-02.21.52:380][ 64]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-02.21.52:380][ 64]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-02.21.52:432][ 64]LogViewport: Scene viewport resized to 3056x1753, mode Windowed.
+[2024.02.17-02.22.18:760][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.17-02.22.18:763][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-02.22.18:808][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.17-02.22.18:810][195]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.17-02.22.18:811][195]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player10CF6CCC47B4D36674B7EEBFB55B5BA7.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.17-02.22.18:814][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.27 sec)
+[2024.02.17-02.22.18:816][195]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.17-02.22.18:816][195]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
