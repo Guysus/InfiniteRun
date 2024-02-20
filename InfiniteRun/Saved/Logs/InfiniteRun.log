@@ -1656,3 +1656,64 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-19.03.52:210][265]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2024.02.20-19.03.52:210][265]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_Jump.IA_Jump
 [2024.02.20-19.03.55:172][602]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/IA_Jump.IA_Jump
+[2024.02.20-19.10.46:296][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.02.20-19.10.46:300][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.10.46:354][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.10.46:361][  7]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.10.46:361][  7]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player3B80CFE64AA2F1D9570D1EB539761623.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.10.46:365][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 732 ms)
+[2024.02.20-19.10.46:366][  7]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-19.10.46:366][  7]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-19.11.04:830][157]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.02.20-19.11.04:836][157]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.02.20-19.11.04:843][158]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.02.20-19.11.12:747][107]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Crouch
+[2024.02.20-19.11.12:748][107]LogContentBrowser: End creating deferred item NewInputAction
+[2024.02.20-19.11.15:278][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.11.15:336][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_Crouch" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_Crouch.uasset" SILENT=true
+[2024.02.20-19.11.15:336][410]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_Crouch
+[2024.02.20-19.11.15:336][410]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_CrouchB3C80A554CC50E2F0D97DC87E1F4B7B0.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_Crouch.uasset'
+[2024.02.20-19.11.15:341][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 795 ms)
+[2024.02.20-19.11.15:342][410]AssetCheck: New page: Asset Save: IA_Crouch
+[2024.02.20-19.11.15:342][410]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_Crouch.IA_Crouch
+[2024.02.20-19.11.20:444][992]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.02.20-19.11.20:449][992]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.02.20-19.11.20:457][993]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.02.20-19.12.08:993][817]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_AttackWeak
+[2024.02.20-19.12.08:993][817]LogContentBrowser: End creating deferred item NewInputAction
+[2024.02.20-19.12.16:818][721]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.02.20-19.12.16:823][721]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.02.20-19.12.16:830][722]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.02.20-19.12.25:985][821]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_AttackStrong
+[2024.02.20-19.12.25:986][821]LogContentBrowser: End creating deferred item NewInputAction
+[2024.02.20-19.12.30:259][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.12.30:318][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_AttackStrong" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_AttackStrong.uasset" SILENT=true
+[2024.02.20-19.12.30:319][333]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_AttackStrong
+[2024.02.20-19.12.30:319][333]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_AttackStrongB388E1184B507E50582597974D3101F1.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_AttackStrong.uasset'
+[2024.02.20-19.12.30:320][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_AttackWeak" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_AttackWeak.uasset" SILENT=true
+[2024.02.20-19.12.30:320][333]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_AttackWeak
+[2024.02.20-19.12.30:320][333]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_AttackWeakA30205414A7064408C3E4789ED265FA0.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_AttackWeak.uasset'
+[2024.02.20-19.12.30:328][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 863 ms)
+[2024.02.20-19.12.30:328][333]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-19.12.30:328][333]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_AttackStrong.IA_AttackStrong
+[2024.02.20-19.12.30:328][333]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_AttackWeak.IA_AttackWeak
+[2024.02.20-19.12.55:353][250]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.02.20-19.12.55:359][250]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.02.20-19.12.55:366][251]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.02.20-19.13.14:998][607]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_PlayerMovement
+[2024.02.20-19.13.14:999][607]LogContentBrowser: End creating deferred item NewInputAction
+[2024.02.20-19.13.17:030][850]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.13.17:084][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_PlayerMovement" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset" SILENT=true
+[2024.02.20-19.13.17:085][850]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_PlayerMovement
+[2024.02.20-19.13.17:085][850]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_PlayerMovement9DE1C0994ED8F965A7F23A8152C427B6.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset'
+[2024.02.20-19.13.17:090][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 922 ms)
+[2024.02.20-19.13.17:090][850]AssetCheck: New page: Asset Save: IA_PlayerMovement
+[2024.02.20-19.13.17:090][850]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_PlayerMovement.IA_PlayerMovement
+[2024.02.20-19.13.51:089][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.02.20-19.13.51:095][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.13.51:150][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.13.51:157][837]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.13.51:157][837]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerB973578D44C588A6AA12D7B85189102F.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.13.51:162][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 990 ms)
+[2024.02.20-19.13.51:163][837]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-19.13.51:163][837]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
