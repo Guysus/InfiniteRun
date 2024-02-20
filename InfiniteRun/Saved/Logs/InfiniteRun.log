@@ -1213,3 +1213,7 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-15.49.52:376][587]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
 [2024.02.20-15.49.52:376][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.02.20-15.50.50:775][313]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.409 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5549 files in 7307 folders with total size 5647 MiB.
+[2024.02.20-16.03.04:164][701]LogSlate: Took 0.003940 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.02.20-16.03.35:158][394]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.02.20-16.03.35:158][394]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.02.20-16.04.06:257][125]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
