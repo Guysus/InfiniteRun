@@ -1217,3 +1217,141 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-16.03.35:158][394]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
 [2024.02.20-16.03.35:158][394]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
 [2024.02.20-16.04.06:257][125]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.02.20-16.08.52:616][881]LogSlate: Took 0.009012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.02.20-16.09.30:967][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.02.20-16.09.30:968][290]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.014
+[2024.02.20-16.09.30:973][290]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.20-16.09.30:973][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.20-16.09.30:973][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.02.20-16.09.30:980][290]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005968 seconds
+[2024.02.20-16.09.30:986][290]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto1
+[2024.02.20-16.09.30:986][290]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto172E4F5C64BABF4DC0433F286F97EFCD0.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto1.uasset'
+[2024.02.20-16.09.30:987][290]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.02.20-16.11.30:699][864]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-16.11.30:703][864]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.20-16.11.30:704][864]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.02.20-16.11.30:727][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.11.30:781][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.11.30:784][864]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.11.30:784][864]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player1CFB79A744FFDD2555BD46BFE00C93BF.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.11.30:790][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms
+[2024.02.20-16.11.30:806][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.20-16.11.30:807][864]LogPlayLevel: PlayLevel: Blueprint regeneration took 103 ms (1 blueprints)
+[2024.02.20-16.11.30:807][864]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 12:11:30 a.m.)
+[2024.02.20-16.11.30:808][864]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.20-16.11.30:809][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001025s)
+[2024.02.20-16.11.30:809][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001051s)
+[2024.02.20-16.11.30:823][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.20-16.11.30:824][864]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-16.11.30:824][864]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-16.11.30:824][864]LogAIModule: Creating AISystem for world Level_01
+[2024.02.20-16.11.30:825][864]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2024.02.20-16.11.30:825][864]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-16.11.30:825][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-16.11.30:825][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-16.11.30:825][864]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-16.11.30:825][864]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-16.11.30:825][864]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-16.11.30:827][864]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-16.11.30:847][864]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.20-16.11.30:847][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-16.11.30:847][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-16.11.30:847][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-16.11.30:848][864]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.02.20-16.11.30:848][864]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.02.20-16.11.30:849][864]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.02.20-16.11.30:849][864]LogInit: FAudioDevice initialized with ID 3.
+[2024.02.20-16.11.30:849][864]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.02.20-16.11.30:849][864]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level_01'.
+[2024.02.20-16.11.30:849][864]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.20-16.11.30:852][864]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.20-16.11.30:852][864]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-08.11.30
+[2024.02.20-16.11.30:852][864]LogWorld: Bringing up level for play took: 0.000483
+[2024.02.20-16.11.30:854][864]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.02.20-16.11.30:855][864]PIE: Server logged in
+[2024.02.20-16.11.30:856][864]PIE: Play in editor total start time 0.153 seconds.
+[2024.02.20-16.11.30:872][865]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.11.30:872][865]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.11.35:587][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.11.35:588][412]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.20-16.11.35:588][412]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.11.35:588][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.11.35:605][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-16.11.35:608][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.11.35:622][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.11.35:622][412]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.20-16.11.35:622][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.20-16.11.35:624][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.20-16.11.35:629][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.20-16.11.35:689][414]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.02.20-16.15.56:544][385]LogSlate: Took 0.006338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.02.20-16.18.44:768][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.20-16.18.44:773][543]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.18.44:838][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.18.44:841][543]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.18.44:841][543]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player275EDCE74B7F6AD9D1AC4A80317FBD7F.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.18.44:845][543]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 134 ms)
+[2024.02.20-16.18.44:847][543]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.18.44:848][543]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.25.21:593][120]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.25.21:619][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.20-16.25.28:491][934]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.25.28:515][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.20-16.25.28:524][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.25.28:562][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.25.28:565][934]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.25.28:566][934]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerFC24171C459A787368CCDBB2B1D4814E.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.25.28:570][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 179 ms)
+[2024.02.20-16.25.28:571][934]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.25.28:571][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.31.45:067][754]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.31.45:095][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.02.20-16.31.45:107][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.31.45:154][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.31.45:158][754]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.31.45:158][754]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player0780C4434798615F37D027AA09B64D31.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.31.45:161][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 234 ms)
+[2024.02.20-16.31.45:163][754]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.31.45:163][754]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.32.25:972][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.20-16.32.25:975][548]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.019
+[2024.02.20-16.32.25:975][548]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.20-16.32.25:975][548]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.20-16.32.25:975][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.02.20-16.32.25:979][548]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto2
+[2024.02.20-16.32.25:979][548]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto2BC952BA147558AA6E9910FA72C22AB92.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto2.uasset'
+[2024.02.20-16.32.25:980][548]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.02.20-16.32.50:615][458]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.32.50:642][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.20-16.32.50:653][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.32.50:703][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.32.50:707][458]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.32.50:707][458]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player7B0035E8490B7153C2CC2B922581E9C3.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.32.50:712][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 292 ms)
+[2024.02.20-16.32.50:713][458]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.32.50:713][458]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.36.29:736][261]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.36.29:764][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.20-16.36.29:778][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.36.29:831][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.36.29:836][261]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.36.29:836][261]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player03523F764D99A352DC0DAEB8726A5D71.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.36.29:840][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 355 ms)
+[2024.02.20-16.36.29:843][261]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.36.29:843][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.44.50:591][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.20-16.44.50:603][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-16.44.50:638][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-16.44.50:644][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-16.44.50:644][ 92]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player493CB18148D1D5CD21A3708C18DA5616.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-16.44.50:648][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 399 ms)
+[2024.02.20-16.44.50:651][ 92]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-16.44.50:651][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-16.44.51:984][245]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-16.44.52:011][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
