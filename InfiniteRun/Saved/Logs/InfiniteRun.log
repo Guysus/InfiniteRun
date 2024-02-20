@@ -1428,3 +1428,231 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-17.07.04:000][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2024.02.20-17.07.04:053][639]LogPlayLevel: Display: Destroying online subsystem :Context_10
 [2024.02.20-17.15.36:933][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.02.20-17.50.50:505][831]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5549 files in 7307 folders with total size 5647 MiB.
+[2024.02.20-17.51.11:927][333]LogViewport: Scene viewport resized to 2064x1516, mode Windowed.
+[2024.02.20-17.51.29:248][294]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-17.51.29:252][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-17.51.29:252][294]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 1:51:29 a.m.)
+[2024.02.20-17.51.29:252][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.20-17.51.29:253][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001345s)
+[2024.02.20-17.51.29:253][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001389s)
+[2024.02.20-17.51.29:272][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.20-17.51.29:274][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-17.51.29:274][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-17.51.29:275][294]LogAIModule: Creating AISystem for world Level_01
+[2024.02.20-17.51.29:275][294]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2024.02.20-17.51.29:275][294]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-17.51.29:275][294]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-17.51.29:275][294]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-17.51.29:276][294]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-17.51.29:276][294]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-17.51.29:276][294]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-17.51.29:277][294]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-17.51.29:295][294]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.20-17.51.29:296][294]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-17.51.29:296][294]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-17.51.29:296][294]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-17.51.29:297][294]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.02.20-17.51.29:297][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.02.20-17.51.29:298][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.02.20-17.51.29:298][294]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.02.20-17.51.29:298][294]LogInit: FAudioDevice initialized with ID 5.
+[2024.02.20-17.51.29:298][294]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level_01'.
+[2024.02.20-17.51.29:298][294]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.20-17.51.29:301][294]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.20-17.51.29:301][294]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-09.51.29
+[2024.02.20-17.51.29:302][294]LogWorld: Bringing up level for play took: 0.000548
+[2024.02.20-17.51.29:303][294]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.02.20-17.51.29:305][294]PIE: Server logged in
+[2024.02.20-17.51.29:306][294]PIE: Play in editor total start time 0.054 seconds.
+[2024.02.20-17.51.48:006][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-17.51.48:006][510]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.20-17.51.48:006][510]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-17.51.48:006][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-17.51.48:011][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-17.51.48:015][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-17.51.48:028][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-17.51.48:028][510]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.20-17.51.48:028][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.20-17.51.48:030][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.20-17.51.48:036][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.02.20-17.51.48:091][513]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.02.20-18.30.58:206][100]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-18.30.58:238][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.20-18.30.58:255][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-18.30.58:304][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-18.30.58:310][100]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-18.30.58:311][100]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player8BD7D72E4A9208B5FB6C3A825B3C181B.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-18.30.58:315][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 526 ms)
+[2024.02.20-18.30.58:317][100]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-18.30.58:317][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-18.31.02:757][512]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-18.31.02:761][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-18.31.02:761][512]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 2:31:02 a.m.)
+[2024.02.20-18.31.02:761][512]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.20-18.31.02:762][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001004s)
+[2024.02.20-18.31.02:762][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001029s)
+[2024.02.20-18.31.02:777][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.20-18.31.02:780][512]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-18.31.02:780][512]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-18.31.02:781][512]LogAIModule: Creating AISystem for world Level_01
+[2024.02.20-18.31.02:781][512]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2024.02.20-18.31.02:781][512]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-18.31.02:781][512]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-18.31.02:781][512]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-18.31.02:781][512]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-18.31.02:781][512]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-18.31.02:781][512]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-18.31.02:783][512]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-18.31.02:801][512]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.20-18.31.02:802][512]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-18.31.02:802][512]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-18.31.02:802][512]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-18.31.02:803][512]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.02.20-18.31.02:803][512]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.02.20-18.31.02:804][512]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.02.20-18.31.02:804][512]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.02.20-18.31.02:804][512]LogInit: FAudioDevice initialized with ID 6.
+[2024.02.20-18.31.02:804][512]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level_01'.
+[2024.02.20-18.31.02:804][512]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.20-18.31.02:806][512]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.20-18.31.02:807][512]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-10.31.02
+[2024.02.20-18.31.02:807][512]LogWorld: Bringing up level for play took: 0.000426
+[2024.02.20-18.31.02:809][512]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.02.20-18.31.02:810][512]LogBlueprintUserMessages: [BP_Player_C_0] Entering the Game
+[2024.02.20-18.31.02:811][512]PIE: Server logged in
+[2024.02.20-18.31.02:811][512]PIE: Play in editor total start time 0.05 seconds.
+[2024.02.20-18.31.07:645][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-18.31.07:645][ 73]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.20-18.31.07:645][ 73]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-18.31.07:645][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-18.31.07:650][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-18.31.07:654][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-18.31.07:669][ 73]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-18.31.07:669][ 73]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.20-18.31.07:670][ 73]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.20-18.31.07:671][ 73]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.20-18.31.07:676][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-18.31.07:678][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.02.20-18.31.07:703][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.02.20-18.31.08:592][138]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-18.31.08:595][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-18.31.08:595][138]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 2:31:08 a.m.)
+[2024.02.20-18.31.08:595][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.20-18.31.08:596][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000966s)
+[2024.02.20-18.31.08:596][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.000991s)
+[2024.02.20-18.31.08:614][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.20-18.31.08:615][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-18.31.08:616][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-18.31.08:616][138]LogAIModule: Creating AISystem for world Level_01
+[2024.02.20-18.31.08:616][138]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2024.02.20-18.31.08:616][138]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-18.31.08:616][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-18.31.08:616][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-18.31.08:617][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-18.31.08:617][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-18.31.08:617][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-18.31.08:618][138]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-18.31.08:635][138]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.20-18.31.08:635][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-18.31.08:635][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-18.31.08:635][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-18.31.08:636][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.02.20-18.31.08:636][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.02.20-18.31.08:637][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.02.20-18.31.08:637][138]LogInit: FAudioDevice initialized with ID 7.
+[2024.02.20-18.31.08:637][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.02.20-18.31.08:637][138]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level_01'.
+[2024.02.20-18.31.08:637][138]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.20-18.31.08:640][138]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.20-18.31.08:641][138]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-10.31.08
+[2024.02.20-18.31.08:641][138]LogWorld: Bringing up level for play took: 0.000423
+[2024.02.20-18.31.08:642][138]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.02.20-18.31.08:643][138]LogBlueprintUserMessages: [BP_Player_C_0] Entering the Game
+[2024.02.20-18.31.08:644][138]PIE: Server logged in
+[2024.02.20-18.31.08:644][138]PIE: Play in editor total start time 0.049 seconds.
+[2024.02.20-18.31.11:225][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-18.31.11:225][419]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.20-18.31.11:225][419]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-18.31.11:225][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-18.31.11:228][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-18.31.11:232][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-18.31.11:247][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-18.31.11:247][419]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.20-18.31.11:247][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.20-18.31.11:249][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.20-18.31.11:254][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.20-18.31.11:279][421]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.02.20-18.31.48:237][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.20-18.31.48:238][429]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.018
+[2024.02.20-18.31.48:238][429]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.20-18.31.48:238][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.20-18.31.48:238][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2024.02.20-18.31.48:245][429]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto4
+[2024.02.20-18.31.48:245][429]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto46DAE7F78402903A77BA54CA469642449.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto4.uasset'
+[2024.02.20-18.31.48:245][429]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.02.20-18.37.47:489][467]LogContentBrowser: Deferred new asset file creation: Ninja1
+[2024.02.20-18.37.47:507][467]LogContentBrowser: Creating deferred item: Ninja1
+[2024.02.20-18.37.47:516][468]LogContentBrowser: Renaming the item being created (Deferred Item: Ninja1).
+[2024.02.20-18.38.06:307][722]LogContentBrowser: Attempting asset rename: Ninja1 -> A_NinjaCrouch
+[2024.02.20-18.38.06:311][722]LogContentBrowser: End creating deferred item Ninja1
+[2024.02.20-18.38.10:708][249]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/A_NinjaCrouch.A_NinjaCrouch
+[2024.02.20-18.38.10:709][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-18.38.10:709][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-18.38.10:820][249]LogViewport: Scene viewport resized to 1331x1068, mode Windowed.
+[2024.02.20-18.39.06:820][924]LogViewport: Scene viewport resized to 1327x1102, mode Windowed.
+[2024.02.20-18.39.06:913][926]LogViewport: Scene viewport resized to 620x329, mode Windowed.
+[2024.02.20-18.39.07:067][944]LogViewport: Scene viewport resized to 3056x1753, mode Windowed.
+[2024.02.20-18.39.07:987][ 42]LogViewport: Scene viewport resized to 3052x1788, mode Windowed.
+[2024.02.20-18.39.08:097][ 44]LogViewport: Scene viewport resized to 620x78, mode Windowed.
+[2024.02.20-18.39.09:020][154]LogViewport: Scene viewport resized to 3056x1753, mode Windowed.
+[2024.02.20-18.39.10:056][274]LogSlate: Window 'A_NinjaCrouch' being destroyed
+[2024.02.20-18.39.20:734][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.20-18.39.20:738][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-18.39.20:793][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-18.39.20:799][534]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-18.39.20:799][534]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player8B4435724CF75530E494719FCF48DA59.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-18.39.20:801][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaCrouch" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaCrouch.uasset" SILENT=true
+[2024.02.20-18.39.20:805][534]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaCrouch
+[2024.02.20-18.39.20:805][534]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaCrouchF85B61BF44B7023BE6122C8B06EE08D1.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaCrouch.uasset'
+[2024.02.20-18.39.20:809][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 596 ms)
+[2024.02.20-18.39.20:810][534]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-18.39.20:810][534]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-18.39.20:810][534]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaCrouch.A_NinjaCrouch
+[2024.02.20-18.50.50:447][930]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.079 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5549 files in 7307 folders with total size 5647 MiB.
+[2024.02.20-19.03.06:215][789]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.02.20-19.03.23:047][775]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.02.20-19.03.23:052][775]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.02.20-19.03.23:061][776]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.02.20-19.03.49:440][942]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Jump
+[2024.02.20-19.03.49:441][942]LogContentBrowser: End creating deferred item NewInputAction
+[2024.02.20-19.03.52:139][265]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.03.52:196][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.03.52:202][265]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.03.52:203][265]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerFF56615E4DC57F9E4CFEBD882099A044.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.03.52:203][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_Jump" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_Jump.uasset" SILENT=true
+[2024.02.20-19.03.52:203][265]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_Jump
+[2024.02.20-19.03.52:203][265]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_Jump45CF43C641F377DBD4F77B8EC25EB622.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_Jump.uasset'
+[2024.02.20-19.03.52:210][265]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 667 ms)
+[2024.02.20-19.03.52:210][265]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-19.03.52:210][265]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-19.03.52:210][265]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_Jump.IA_Jump
+[2024.02.20-19.03.55:172][602]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/IA_Jump.IA_Jump
