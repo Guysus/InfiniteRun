@@ -1795,3 +1795,101 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-19.38.17:010][814]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.26 sec)
 [2024.02.20-19.38.17:011][814]AssetCheck: New page: Asset Save: A_NinjaDead
 [2024.02.20-19.38.17:011][814]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaDead.A_NinjaDead
+[2024.02.20-19.38.42:662][913]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/A_NinjaDead.A_NinjaDead
+[2024.02.20-19.38.42:663][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-19.38.42:663][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-19.38.42:724][913]LogViewport: Scene viewport resized to 3056x1753, mode Windowed.
+[2024.02.20-19.39.16:586][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.02.20-19.39.16:593][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.39.16:635][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaDead" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaDead.uasset" SILENT=true
+[2024.02.20-19.39.16:636][937]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaDead
+[2024.02.20-19.39.16:636][937]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaDead31D6E0FA4485CED2488F63BEFC34069A.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaDead.uasset'
+[2024.02.20-19.39.16:640][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1.31 sec)
+[2024.02.20-19.39.16:641][937]AssetCheck: New page: Asset Save: A_NinjaDead
+[2024.02.20-19.39.16:641][937]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaDead.A_NinjaDead
+[2024.02.20-19.39.42:140][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.02.20-19.39.42:144][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.39.42:185][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/A_NinjaDead" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaDead.uasset" SILENT=true
+[2024.02.20-19.39.42:186][989]LogSavePackage: Moving output files for package: /Game/Sprites/A_NinjaDead
+[2024.02.20-19.39.42:186][989]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/A_NinjaDead845D546C4718E6BDAD8EB5B471A1D13F.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Sprites/A_NinjaDead.uasset'
+[2024.02.20-19.39.42:190][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.35 sec)
+[2024.02.20-19.39.42:193][989]AssetCheck: New page: Asset Save: A_NinjaDead
+[2024.02.20-19.39.42:193][989]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Sprites/A_NinjaDead.A_NinjaDead
+[2024.02.20-19.39.52:324][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.02.20-19.41.38:186][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.20-19.41.38:192][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.41.38:231][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.41.38:238][695]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.41.38:239][695]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player0F0CD1FF47B95F7685B2168F6A0FBB82.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.41.38:239][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Char_States" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/Char_States.uasset" SILENT=true
+[2024.02.20-19.41.38:240][695]LogSavePackage: Moving output files for package: /Game/Blueprints/Char_States
+[2024.02.20-19.41.38:240][695]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Char_States87C900204865CF1E0EE6FBBAA26A0E4A.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/Char_States.uasset'
+[2024.02.20-19.41.38:244][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.40 sec)
+[2024.02.20-19.41.38:245][695]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-19.41.38:245][695]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-19.41.38:245][695]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/Blueprints/Char_States.Char_States
+[2024.02.20-19.41.42:360][173]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-19.41.42:389][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.02.20-19.42.26:566][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.20-19.42.26:569][369]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.020
+[2024.02.20-19.42.26:569][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.20-19.42.26:569][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.20-19.42.26:569][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2024.02.20-19.42.26:577][369]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto7
+[2024.02.20-19.42.26:577][369]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto7E01DFFBF45D74C094DBBE6955BB8BF95.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto7.uasset'
+[2024.02.20-19.42.26:577][369]LogFileHelpers: Auto-saving content packages took 0.008
+[2024.02.20-19.46.02:066][135]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-19.46.02:066][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-19.46.05:573][546]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-19.46.05:573][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-19.46.09:481][  5]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-19.46.09:482][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-19.46.14:349][578]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-19.46.14:349][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-19.46.24:139][740]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-19.46.24:139][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-19.46.31:563][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.02.20-19.46.31:570][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.46.31:625][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.46.31:632][613]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.46.31:633][613]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerA5143E514FDC87BA272E58AC64ADAD91.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.46.31:638][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 1.47 sec)
+[2024.02.20-19.46.31:638][613]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-19.46.31:638][613]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-19.47.28:775][437]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-19.47.28:805][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.20-19.47.28:820][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-19.47.28:858][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-19.47.28:865][437]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-19.47.28:865][437]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player90C04356441533059EC55B93E115D485.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-19.47.28:870][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1.52 sec)
+[2024.02.20-19.47.28:871][437]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-19.47.28:871][437]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-19.50.50:458][682]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.089 and deleted 3 files with total size 0 MiB and 3 empty folders. Scanned 5549 files in 7307 folders with total size 5647 MiB.
+[2024.02.20-19.55.57:800][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.20-19.55.57:803][496]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.020
+[2024.02.20-19.55.57:803][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.20-19.55.57:803][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.20-19.55.57:803][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2024.02.20-19.55.57:812][496]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto8
+[2024.02.20-19.55.57:812][496]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto80E89A93940F3308C22F025981ED1894E.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto8.uasset'
+[2024.02.20-19.55.57:812][496]LogFileHelpers: Auto-saving content packages took 0.010
+[2024.02.20-19.58.09:314][927]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-19.58.09:318][927]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_Player.uasset: [Compiler] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2024.02.20-19.58.09:344][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.20-19.58.36:931][ 72]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-19.58.36:934][ 72]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_Player.uasset: [Compiler] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2024.02.20-19.58.36:961][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.20-19.59.17:406][794]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-19.59.17:409][794]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_Player.uasset: [Compiler] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2024.02.20-19.59.17:436][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.20-20.00.47:469][144]BlueprintLog: New page: Compile BP_Player
+[2024.02.20-20.00.47:501][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.20-20.00.47:529][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-20.00.47:574][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.20-20.00.47:583][144]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.20-20.00.47:583][144]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player71102B514D8EAABC0798688847FF8AC2.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.20-20.00.47:587][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.58 sec)
+[2024.02.20-20.00.47:602][144]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.20-20.00.47:602][144]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.20-20.00.50:796][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
