@@ -1377,3 +1377,336 @@ Make sure 'BP_InfiniteRun_C' has been compiled for  Get StatueCount
 [2024.02.21-16.51.33:741][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 377 ms)
 [2024.02.21-16.51.33:749][490]AssetCheck: New page: Asset Save: BP_InfiniteRun
 [2024.02.21-16.51.33:749][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.21-16.54.27:024][787]LogProperty: Warning: ObjectProperty /Script/Engine.GraphReference:MacroGraph: unresolved reference to '"/Script/Engine.EdGraph'StartGame'",GraphBlueprint="/Script/Engine.Blueprint'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode'",GraphGuid=0C2B569B48193C425FEA2A8178300B95)'
+[2024.02.21-16.54.27:024][787]LogProperty: Warning: ObjectProperty /Script/Engine.GraphReference:GraphBlueprint: unresolved reference to '"/Script/Engine.Blueprint'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode'",GraphGuid=0C2B569B48193C425FEA2A8178300B95)'
+[2024.02.21-16.54.27:024][787]LogProperty: Warning: ObjectProperty /Script/Engine.GraphReference:MacroGraph: unresolved reference to '"/Script/Engine.EdGraph'StartGame'",GraphBlueprint="/Script/Engine.Blueprint'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode'",GraphGuid=0C2B569B48193C425FEA2A8178300B95)'
+[2024.02.21-16.54.27:024][787]LogProperty: Warning: ObjectProperty /Script/Engine.GraphReference:GraphBlueprint: unresolved reference to '"/Script/Engine.Blueprint'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode'",GraphGuid=0C2B569B48193C425FEA2A8178300B95)'
+[2024.02.21-16.55.09:479][491]BlueprintLog: New page: Compile BP_InfiniteRun
+[2024.02.21-16.55.09:511][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.02.21-16.55.09:521][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-16.55.09:559][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_InfiniteRun" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset" SILENT=true
+[2024.02.21-16.55.09:567][491]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_InfiniteRun
+[2024.02.21-16.55.09:568][491]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_InfiniteRunBEA3292045D7A780840011B1223F9583.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset'
+[2024.02.21-16.55.09:572][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 428 ms)
+[2024.02.21-16.55.09:574][491]AssetCheck: New page: Asset Save: BP_InfiniteRun
+[2024.02.21-16.55.09:574][491]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.21-16.55.16:480][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.02.21-16.55.23:717][561]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-16.55.23:721][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-16.55.23:722][561]PIE: New page: PIE session: Level_01 (Feb. 21, 2024, 12:55:23 a.m.)
+[2024.02.21-16.55.23:724][561]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.02.21-16.55.23:724][561]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.02.21-16.55.23:724][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-16.55.23:725][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001012s)
+[2024.02.21-16.55.23:725][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001040s)
+[2024.02.21-16.55.23:745][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.21-16.55.23:746][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-16.55.23:746][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-16.55.23:746][561]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-16.55.23:746][561]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2024.02.21-16.55.23:746][561]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-16.55.23:746][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-16.55.23:746][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-16.55.23:747][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-16.55.23:747][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-16.55.23:747][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-16.55.23:748][561]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-16.55.23:767][561]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-16.55.23:768][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-16.55.23:768][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-16.55.23:768][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-16.55.23:768][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.02.21-16.55.23:768][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.02.21-16.55.23:769][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.02.21-16.55.23:769][561]LogInit: FAudioDevice initialized with ID 2.
+[2024.02.21-16.55.23:770][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.02.21-16.55.23:770][561]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level_01'.
+[2024.02.21-16.55.23:770][561]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.02.21-16.55.23:772][561]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-16.55.23:773][561]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.21-08.55.23
+[2024.02.21-16.55.23:773][561]LogWorld: Bringing up level for play took: 0.000452
+[2024.02.21-16.55.23:774][561]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.02.21-16.55.23:778][561]PIE: Server logged in
+[2024.02.21-16.55.23:779][561]PIE: Play in editor total start time 0.058 seconds.
+[2024.02.21-16.55.29:714][253]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-16.55.30:423][338]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-16.55.32:440][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-16.55.32:440][574]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-16.55.32:440][574]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-16.55.32:440][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-16.55.32:442][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-16.55.32:446][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-16.55.32:462][574]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-16.55.32:463][574]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.02.21-16.55.32:463][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.02.21-16.55.32:464][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.02.21-16.55.32:468][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-16.55.32:470][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.02.21-16.55.32:495][575]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.02.21-16.55.46:941][ 87]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-16.55.46:941][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-16.57.27:511][889]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.21-16.57.27:516][889]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.21-16.57.27:524][889]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.21-16.57.27:531][889]LogAutomationController: Ignoring very large delta of 11.49 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.21-16.57.27:555][890]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.21-16.57.32:535][473]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_HUD
+[2024.02.21-16.57.32:540][473]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.21-16.57.36:686][942]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_HUD.BP_HUD
+[2024.02.21-16.57.36:686][942]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-16.57.36:686][942]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-16.57.37:137][942]LogViewport: Scene viewport resized to 903x977, mode Windowed.
+[2024.02.21-16.57.39:784][192]LogViewport: Scene viewport resized to 900x1005, mode Windowed.
+[2024.02.21-16.57.39:867][194]LogViewport: Scene viewport resized to 437x406, mode Windowed.
+[2024.02.21-16.57.39:900][195]LogViewport: Scene viewport resized to 415x377, mode Windowed.
+[2024.02.21-16.57.40:022][207]LogViewport: Scene viewport resized to 2064x1516, mode Windowed.
+[2024.02.21-16.57.40:596][273]LogSlate: Window 'BP_HUD' being destroyed
+[2024.02.21-16.58.35:431][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.02.21-16.58.35:434][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-16.58.35:489][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HUD" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset" SILENT=true
+[2024.02.21-16.58.35:492][864]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_HUD
+[2024.02.21-16.58.35:492][864]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_HUD268621674E53CD288ECD95B69B93200B.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset'
+[2024.02.21-16.58.35:499][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 493 ms)
+[2024.02.21-16.58.35:499][864]AssetCheck: New page: Asset Save: BP_HUD
+[2024.02.21-16.58.35:499][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_HUD.BP_HUD
+[2024.02.21-16.58.54:871][508]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode_C'"'
+[2024.02.21-16.58.54:872][508]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode_C'",MemberName="Score",MemberGuid=2CCD1422471E4F02B99B239DF39C0209)'
+[2024.02.21-16.58.54:873][508]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode_C'",MemberName="Time",MemberGuid=F67637584371852F81DB96B527E84B62)'
+[2024.02.21-16.58.54:873][508]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode_C'",MemberName="Level",MemberGuid=E95D35F8453EA71BD46CD3AA2B20264F)'
+[2024.02.21-16.58.54:874][508]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/BP_Guide_Game_Mode.BP_Guide_Game_Mode_C'",MemberName="GameOver",MemberGuid=D46B416D4B99408BC4A220B870CD9526)'
+[2024.02.21-16.59.00:201][139]BlueprintLog: New page: Compile BP_HUD
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "GameOver" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get GameOver
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Level" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Level
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Time" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Time
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Score" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Score
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-16.59.00:203][139]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Set My_Guide_GameMode
+[2024.02.21-16.59.00:203][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] In use pin  As BP Guide Game Mode  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Score  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Time  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Level  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:204][139]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Game Over  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-16.59.00:237][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.02.21-17.00.47:626][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.02.21-17.00.47:627][582]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.023
+[2024.02.21-17.00.47:628][582]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_HUD] ([2] browsable assets)...
+[2024.02.21-17.00.47:628][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_HUD]
+[2024.02.21-17.00.47:628][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HUD" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.02.21-17.00.47:634][582]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_HUD_Auto3
+[2024.02.21-17.00.47:634][582]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_HUD_Auto35A39BCD749D7C97B5C83729F7361174D.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_HUD_Auto3.uasset'
+[2024.02.21-17.00.47:634][582]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.02.21-17.01.20:982][454]BlueprintLog: New page: Compile BP_HUD
+[2024.02.21-17.01.20:983][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "GameOver" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get GameOver
+[2024.02.21-17.01.20:983][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-17.01.20:983][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Level" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Level
+[2024.02.21-17.01.20:983][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-17.01.20:984][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Time" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Time
+[2024.02.21-17.01.20:984][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Get My_Guide_GameMode
+[2024.02.21-17.01.20:984][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Score" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Score
+[2024.02.21-17.01.20:984][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "My_Guide_GameMode" in 'BP_HUD_C'.
+Make sure 'BP_HUD_C' has been compiled for  Set My_Guide_GameMode
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Default value '' for  My Guide Game Mode  is invalid: 'PinSubCategoryObject on pin 'My_Guide_GameMode' is NULL and PinSubCategory is 'None' not 'self''
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Score  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Time  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Level  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  My Guide Game Mode  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.20:984][454]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Game Over  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.01.21:017][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.02.21-17.04.47:912][207]BlueprintLog: New page: Compile BP_HUD
+[2024.02.21-17.04.47:914][207]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "GameOver" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get GameOver
+[2024.02.21-17.04.47:914][207]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Level" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Level
+[2024.02.21-17.04.47:914][207]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Time" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Time
+[2024.02.21-17.04.47:914][207]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] Could not find a variable named "Score" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get Score
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Score  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.04.47:914][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Time  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.04.47:915][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Level  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.04.47:915][207]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_HUD.uasset: [Compiler] The property associated with  Game Over  could not be found in '/Game/Blueprints/BP_HUD.BP_HUD_C'
+[2024.02.21-17.04.47:946][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.02.21-17.05.58:623][ 53]LogSlate: Window 'Delete Variable' being destroyed
+[2024.02.21-17.05.58:719][ 53]LogAutomationController: Ignoring very large delta of 3.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.21-17.06.10:748][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.21-17.06.10:755][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-17.06.10:813][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-17.06.10:826][440]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-17.06.10:827][440]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player9DB0423E4220DB7799AB008B51E76D63.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-17.06.10:827][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HUD" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset" SILENT=true
+[2024.02.21-17.06.10:833][440]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_HUD
+[2024.02.21-17.06.10:833][440]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_HUD8907827F4C979D57566E3B896E556FB4.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset'
+[2024.02.21-17.06.10:839][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 578 ms)
+[2024.02.21-17.06.10:841][440]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.21-17.06.10:841][440]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-17.06.10:841][440]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_HUD.BP_HUD
+[2024.02.21-17.08.03:615][399]BlueprintLog: New page: Compile BP_HUD
+[2024.02.21-17.08.03:653][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.21-17.08.03:670][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-17.08.03:710][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_HUD" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset" SILENT=true
+[2024.02.21-17.08.03:716][399]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_HUD
+[2024.02.21-17.08.03:716][399]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_HUDAB42277A4562C29BC10E1FB9F591BC1F.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_HUD.uasset'
+[2024.02.21-17.08.03:721][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 628 ms)
+[2024.02.21-17.08.03:730][399]AssetCheck: New page: Asset Save: BP_HUD
+[2024.02.21-17.08.03:730][399]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_HUD.BP_HUD
+[2024.02.21-17.08.34:768][410]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-17.08.34:773][410]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.21-17.08.34:773][410]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.02.21-17.08.34:835][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.21-17.08.34:841][410]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2024.02.21-17.08.34:841][410]PIE: New page: PIE session: Level_01 (Feb. 21, 2024, 1:08:34 a.m.)
+[2024.02.21-17.08.34:841][410]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-17.08.34:842][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000931s)
+[2024.02.21-17.08.34:842][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.000954s)
+[2024.02.21-17.08.34:863][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.02.21-17.08.34:864][410]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-17.08.34:864][410]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-17.08.34:865][410]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-17.08.34:865][410]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2024.02.21-17.08.34:865][410]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-17.08.34:865][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-17.08.34:865][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-17.08.34:865][410]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-17.08.34:865][410]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-17.08.34:865][410]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-17.08.34:867][410]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-17.08.34:885][410]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-17.08.34:885][410]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-17.08.34:885][410]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-17.08.34:885][410]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-17.08.34:886][410]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.02.21-17.08.34:886][410]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.02.21-17.08.34:887][410]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.02.21-17.08.34:887][410]LogInit: FAudioDevice initialized with ID 3.
+[2024.02.21-17.08.34:887][410]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.02.21-17.08.34:887][410]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level_01'.
+[2024.02.21-17.08.34:887][410]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.21-17.08.34:890][410]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-17.08.34:890][410]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.21-09.08.34
+[2024.02.21-17.08.34:890][410]LogWorld: Bringing up level for play took: 0.000424
+[2024.02.21-17.08.34:892][410]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.02.21-17.08.34:893][410]PIE: Server logged in
+[2024.02.21-17.08.34:894][410]PIE: Play in editor total start time 0.122 seconds.
+[2024.02.21-17.08.39:079][899]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-17.08.39:920][  0]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-17.08.42:669][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-17.08.42:669][326]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-17.08.42:669][326]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-17.08.42:670][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-17.08.42:672][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-17.08.42:676][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-17.08.42:692][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-17.08.42:692][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.21-17.08.42:693][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.21-17.08.42:694][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.21-17.08.42:699][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.02.21-17.08.42:780][328]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.02.21-17.08.49:385][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.21-17.09.08:512][202]BlueprintLog: New page: Compile BP_InfiniteRun
+[2024.02.21-17.09.08:560][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.21-17.09.08:584][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-17.09.08:642][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_InfiniteRun" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset" SILENT=true
+[2024.02.21-17.09.08:651][202]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_InfiniteRun
+[2024.02.21-17.09.08:651][202]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_InfiniteRun755D201C45AF8B4953F1A9AC334D97D3.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset'
+[2024.02.21-17.09.08:655][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 700 ms)
+[2024.02.21-17.09.08:662][202]AssetCheck: New page: Asset Save: BP_InfiniteRun
+[2024.02.21-17.09.08:662][202]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.21-17.09.15:993][959]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-17.09.15:998][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-17.09.15:998][959]PIE: New page: PIE session: Level_01 (Feb. 21, 2024, 1:09:15 a.m.)
+[2024.02.21-17.09.15:998][959]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-17.09.15:999][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001445s)
+[2024.02.21-17.09.15:999][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001477s)
+[2024.02.21-17.09.16:023][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.21-17.09.16:028][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-17.09.16:028][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-17.09.16:029][959]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-17.09.16:029][959]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2024.02.21-17.09.16:029][959]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-17.09.16:029][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-17.09.16:029][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-17.09.16:029][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-17.09.16:029][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-17.09.16:030][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-17.09.16:031][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-17.09.16:048][959]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-17.09.16:048][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-17.09.16:048][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-17.09.16:048][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-17.09.16:049][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.02.21-17.09.16:049][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.02.21-17.09.16:050][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.02.21-17.09.16:050][959]LogInit: FAudioDevice initialized with ID 4.
+[2024.02.21-17.09.16:050][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.02.21-17.09.16:050][959]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level_01'.
+[2024.02.21-17.09.16:050][959]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.21-17.09.16:052][959]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-17.09.16:053][959]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.21-09.09.16
+[2024.02.21-17.09.16:053][959]LogWorld: Bringing up level for play took: 0.000420
+[2024.02.21-17.09.16:055][959]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.02.21-17.09.16:056][959]PIE: Server logged in
+[2024.02.21-17.09.16:056][959]PIE: Play in editor total start time 0.059 seconds.
+[2024.02.21-17.09.22:918][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-17.09.22:919][767]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-17.09.22:919][767]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-17.09.22:919][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-17.09.22:921][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-17.09.22:925][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-17.09.22:946][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-17.09.22:947][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.21-17.09.22:947][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.21-17.09.22:948][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.21-17.09.22:954][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.02.21-17.09.23:040][769]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.02.21-17.09.28:605][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
