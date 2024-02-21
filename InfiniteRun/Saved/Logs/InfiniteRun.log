@@ -1959,3 +1959,480 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.02.21-02.47.10:895][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2024.02.21-02.47.10:900][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
 [2024.02.21-02.47.10:988][276]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.02.21-02.50.49:248][665]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.50.49:282][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.02.21-02.50.49:304][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.50.49:360][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.50.49:373][665]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.50.49:373][665]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player47513B6B4B17CEB866D56CBFA0004B45.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.50.49:377][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 896 ms)
+[2024.02.21-02.50.49:378][665]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-02.50.49:378][665]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.51.43:306][ 89]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.51.43:342][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.21-02.51.44:691][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.21-02.51.48:145][509]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-02.51.48:150][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-02.51.48:150][509]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 10:51:48 a.m.)
+[2024.02.21-02.51.48:150][509]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-02.51.48:151][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2024.02.21-02.51.48:151][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001073s)
+[2024.02.21-02.51.48:167][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.02.21-02.51.48:169][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-02.51.48:169][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-02.51.48:169][509]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-02.51.48:169][509]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2024.02.21-02.51.48:169][509]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-02.51.48:169][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-02.51.48:169][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-02.51.48:170][509]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-02.51.48:170][509]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-02.51.48:170][509]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-02.51.48:172][509]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-02.51.48:190][509]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-02.51.48:190][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-02.51.48:191][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-02.51.48:191][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-02.51.48:191][509]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.21-02.51.48:191][509]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.21-02.51.48:193][509]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.21-02.51.48:193][509]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.21-02.51.48:193][509]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.21-02.51.48:193][509]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level_01'.
+[2024.02.21-02.51.48:193][509]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.21-02.51.48:195][509]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-02.51.48:196][509]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-18.51.48
+[2024.02.21-02.51.48:196][509]LogWorld: Bringing up level for play took: 0.000463
+[2024.02.21-02.51.48:197][509]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.02.21-02.51.48:198][509]PIE: Server logged in
+[2024.02.21-02.51.48:199][509]PIE: Play in editor total start time 0.049 seconds.
+[2024.02.21-02.51.51:345][874]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.51.52:079][962]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.51.52:788][ 47]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.52.05:012][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.52.05:012][510]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-02.52.05:012][510]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-02.52.05:012][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.52.05:014][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-02.52.05:018][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.52.05:033][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.52.05:033][510]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.21-02.52.05:033][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.21-02.52.05:035][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.21-02.52.05:040][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.02.21-02.52.05:131][512]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.02.21-02.52.22:722][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.02.21-02.52.22:726][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.52.22:775][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.52.22:788][417]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.52.22:788][417]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerE7908D8A4C1B624104AFF5A6DE7614A2.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.52.22:789][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_PlayerMovement" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset" SILENT=true
+[2024.02.21-02.52.22:789][417]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_PlayerMovement
+[2024.02.21-02.52.22:789][417]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_PlayerMovement791E809642436413F01DF0A6CA2710BB.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset'
+[2024.02.21-02.52.22:795][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 965 ms)
+[2024.02.21-02.52.22:796][417]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.21-02.52.22:796][417]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.52.22:796][417]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_PlayerMovement.IA_PlayerMovement
+[2024.02.21-02.52.50:146][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.02.21-02.52.50:150][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.52.50:210][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.52.50:222][583]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.52.50:223][583]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerAC381DE949E99EFBA3158DA6443C3313.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.52.50:223][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_PlayerMovement" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset" SILENT=true
+[2024.02.21-02.52.50:224][583]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_PlayerMovement
+[2024.02.21-02.52.50:224][583]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_PlayerMovement27E1E3984880DCC9F5F1829231973B7D.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset'
+[2024.02.21-02.52.50:229][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.04 sec)
+[2024.02.21-02.52.50:230][583]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.21-02.52.50:230][583]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.52.50:230][583]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_PlayerMovement.IA_PlayerMovement
+[2024.02.21-02.53.25:433][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.02.21-02.53.25:440][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.53.25:475][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.53.25:487][669]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.53.25:487][669]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerA7B2E11D421E31DB069E9E8BEAC89A09.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.53.25:487][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IA_PlayerMovement" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset" SILENT=true
+[2024.02.21-02.53.25:488][669]LogSavePackage: Moving output files for package: /Game/Blueprints/IA_PlayerMovement
+[2024.02.21-02.53.25:488][669]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/IA_PlayerMovement6D0DB5014F2BA655741BE0852B30DC67.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/IA_PlayerMovement.uasset'
+[2024.02.21-02.53.25:493][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.09 sec)
+[2024.02.21-02.53.25:494][669]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.21-02.53.25:494][669]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.53.25:494][669]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/IA_PlayerMovement.IA_PlayerMovement
+[2024.02.21-02.54.13:162][261]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.54.13:193][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.21-02.54.13:215][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.54.13:256][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.54.13:269][261]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.54.13:269][261]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerF5595860453D5A6E50FF29A4C21ECC1A.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.54.13:273][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.15 sec)
+[2024.02.21-02.54.13:275][261]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-02.54.13:275][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.54.18:947][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.21-02.54.21:920][ 35]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-02.54.21:925][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-02.54.21:926][ 35]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 10:54:21 a.m.)
+[2024.02.21-02.54.21:926][ 35]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-02.54.21:926][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000970s)
+[2024.02.21-02.54.21:926][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.000995s)
+[2024.02.21-02.54.21:941][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.21-02.54.21:942][ 35]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-02.54.21:942][ 35]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-02.54.21:943][ 35]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-02.54.21:943][ 35]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2024.02.21-02.54.21:943][ 35]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-02.54.21:943][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-02.54.21:943][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-02.54.21:943][ 35]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-02.54.21:943][ 35]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-02.54.21:943][ 35]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-02.54.21:946][ 35]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-02.54.21:962][ 35]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-02.54.21:963][ 35]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-02.54.21:963][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-02.54.21:963][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-02.54.21:963][ 35]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.21-02.54.21:964][ 35]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.21-02.54.21:965][ 35]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.21-02.54.21:965][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.21-02.54.21:965][ 35]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.21-02.54.21:965][ 35]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level_01'.
+[2024.02.21-02.54.21:965][ 35]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.21-02.54.21:967][ 35]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-02.54.21:968][ 35]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-18.54.21
+[2024.02.21-02.54.21:968][ 35]LogWorld: Bringing up level for play took: 0.000434
+[2024.02.21-02.54.21:969][ 35]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.02.21-02.54.21:971][ 35]PIE: Server logged in
+[2024.02.21-02.54.21:971][ 35]PIE: Play in editor total start time 0.047 seconds.
+[2024.02.21-02.54.24:737][354]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.25:612][459]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.27:612][699]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.28:212][771]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.28:921][856]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.29:429][917]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.30:013][987]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.30:712][ 71]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.31:380][151]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.31:963][221]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.32:514][287]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.33:422][396]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.34:080][475]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.35:147][603]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.36:389][752]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.37:489][884]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.38:189][968]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.39:322][104]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.54.42:911][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.54.42:911][531]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-02.54.42:911][531]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-02.54.42:912][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.54.42:914][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-02.54.42:918][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.54.42:934][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.54.42:934][531]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.21-02.54.42:934][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.21-02.54.42:935][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.21-02.54.42:941][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.02.21-02.54.43:032][533]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.02.21-02.55.11:751][685]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.091 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5562 files in 7305 folders with total size 5477 MiB.
+[2024.02.21-02.55.33:939][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.02.21-02.55.33:941][284]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.018
+[2024.02.21-02.55.33:941][284]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2024.02.21-02.55.33:941][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2024.02.21-02.55.33:941][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.02.21-02.55.33:953][284]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Player_Auto3
+[2024.02.21-02.55.33:953][284]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player_Auto3C9CD95724DE3BBD12DEDF79AE30A9F9B.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2024.02.21-02.55.33:954][284]LogFileHelpers: Auto-saving content packages took 0.013
+[2024.02.21-02.56.28:318][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.02.21-02.56.28:321][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.56.28:370][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.56.28:383][733]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.56.28:383][733]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerEBA523A14F85FCFF586B009423449DC5.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.56.28:387][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 1.22 sec)
+[2024.02.21-02.56.28:389][733]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-02.56.28:389][733]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.56.33:213][189]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-02.56.33:218][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-02.56.33:218][189]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 10:56:33 a.m.)
+[2024.02.21-02.56.33:240][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-02.56.33:241][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001060s)
+[2024.02.21-02.56.33:241][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001093s)
+[2024.02.21-02.56.33:258][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.21-02.56.33:259][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-02.56.33:259][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-02.56.33:260][189]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-02.56.33:260][189]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2024.02.21-02.56.33:260][189]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-02.56.33:260][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-02.56.33:260][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-02.56.33:260][189]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-02.56.33:260][189]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-02.56.33:260][189]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-02.56.33:262][189]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-02.56.33:280][189]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-02.56.33:280][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-02.56.33:280][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-02.56.33:280][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-02.56.33:281][189]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.21-02.56.33:281][189]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.21-02.56.33:282][189]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.21-02.56.33:282][189]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.21-02.56.33:282][189]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.21-02.56.33:282][189]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level_01'.
+[2024.02.21-02.56.33:282][189]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.21-02.56.33:285][189]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-02.56.33:285][189]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-18.56.33
+[2024.02.21-02.56.33:285][189]LogWorld: Bringing up level for play took: 0.000448
+[2024.02.21-02.56.33:287][189]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.02.21-02.56.33:288][189]PIE: Server logged in
+[2024.02.21-02.56.33:289][189]PIE: Play in editor total start time 0.07 seconds.
+[2024.02.21-02.56.37:603][693]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.56.38:312][778]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.56.45:761][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.56.45:761][667]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-02.56.45:761][667]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-02.56.45:761][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.56.45:764][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-02.56.45:768][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.56.45:784][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-02.56.45:784][667]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.21-02.56.45:784][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.21-02.56.45:785][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.21-02.56.45:789][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.56.45:791][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.02.21-02.56.45:881][669]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.02.21-02.58.22:506][822]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.58.22:542][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.21-02.58.22:564][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.58.22:618][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.58.22:631][822]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.58.22:631][822]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player93CAEBE748DCAB7D60FDBEB5884A4F18.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.58.22:635][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.29 sec)
+[2024.02.21-02.58.22:638][822]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-02.58.22:638][822]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.58.25:169][  5]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-02.58.25:174][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-02.58.25:174][  5]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 10:58:25 a.m.)
+[2024.02.21-02.58.25:174][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-02.58.25:175][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001470s)
+[2024.02.21-02.58.25:175][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001503s)
+[2024.02.21-02.58.25:192][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.21-02.58.25:197][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-02.58.25:197][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-02.58.25:197][  5]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-02.58.25:198][  5]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2024.02.21-02.58.25:198][  5]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-02.58.25:198][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-02.58.25:198][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-02.58.25:198][  5]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-02.58.25:198][  5]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-02.58.25:198][  5]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-02.58.25:200][  5]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-02.58.25:217][  5]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-02.58.25:217][  5]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-02.58.25:217][  5]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-02.58.25:217][  5]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-02.58.25:218][  5]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.21-02.58.25:218][  5]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.21-02.58.25:219][  5]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.21-02.58.25:219][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.21-02.58.25:219][  5]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.21-02.58.25:219][  5]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level_01'.
+[2024.02.21-02.58.25:219][  5]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.21-02.58.25:222][  5]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-02.58.25:222][  5]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-18.58.25
+[2024.02.21-02.58.25:222][  5]LogWorld: Bringing up level for play took: 0.000453
+[2024.02.21-02.58.25:224][  5]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.02.21-02.58.25:225][  5]PIE: Server logged in
+[2024.02.21-02.58.25:225][  5]PIE: Play in editor total start time 0.052 seconds.
+[2024.02.21-02.58.28:244][354]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.29:211][470]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.32:776][896]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.33:209][948]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.33:617][997]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.34:676][124]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.36:175][304]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.58.44:052][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.58.44:052][245]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-02.58.44:052][245]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-02.58.44:052][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.58.44:054][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-02.58.44:058][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.58.44:070][245]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-02.58.44:070][245]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.21-02.58.44:070][245]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.21-02.58.44:072][245]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.21-02.58.44:075][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.58.44:077][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.21-02.58.44:163][247]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.02.21-02.59.13:063][456]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.59.13:098][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.21-02.59.13:122][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-02.59.13:150][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-02.59.13:162][456]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-02.59.13:162][456]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player8C1BEC794B99970D5D784FA2BBF4D006.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-02.59.13:166][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.33 sec)
+[2024.02.21-02.59.13:168][456]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-02.59.13:168][456]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-02.59.23:963][706]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-02.59.23:998][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.21-02.59.26:835][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-02.59.26:839][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-02.59.26:839][895]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 10:59:26 a.m.)
+[2024.02.21-02.59.26:839][895]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-02.59.26:840][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001063s)
+[2024.02.21-02.59.26:840][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001090s)
+[2024.02.21-02.59.26:857][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.21-02.59.26:861][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-02.59.26:861][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-02.59.26:862][895]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-02.59.26:862][895]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2024.02.21-02.59.26:862][895]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-02.59.26:862][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-02.59.26:862][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-02.59.26:862][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-02.59.26:862][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-02.59.26:862][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-02.59.26:864][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-02.59.26:881][895]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-02.59.26:881][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-02.59.26:881][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-02.59.26:881][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-02.59.26:882][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.21-02.59.26:882][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.21-02.59.26:883][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.21-02.59.26:883][895]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.21-02.59.26:883][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.21-02.59.26:883][895]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level_01'.
+[2024.02.21-02.59.26:883][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.21-02.59.26:885][895]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-02.59.26:886][895]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-18.59.26
+[2024.02.21-02.59.26:886][895]LogWorld: Bringing up level for play took: 0.000437
+[2024.02.21-02.59.26:887][895]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.02.21-02.59.26:888][895]PIE: Server logged in
+[2024.02.21-02.59.26:889][895]PIE: Play in editor total start time 0.05 seconds.
+[2024.02.21-02.59.28:951][129]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.59.35:667][935]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.59.39:102][347]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-02.59.42:521][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.59.42:521][753]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-02.59.42:521][753]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-02.59.42:521][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.59.42:524][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-02.59.42:528][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-02.59.42:543][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-02.59.42:543][753]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.21-02.59.42:544][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.21-02.59.42:545][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.21-02.59.42:550][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.02.21-02.59.42:637][755]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.02.21-03.00.02:347][907]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-03.00.02:382][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.21-03.00.02:402][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-03.00.02:431][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-03.00.02:444][907]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-03.00.02:444][907]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_Player649B43144EA0E86FB49218AB6916C3BA.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-03.00.02:448][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.38 sec)
+[2024.02.21-03.00.02:464][907]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-03.00.02:464][907]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-03.00.34:629][625]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-03.00.34:663][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.02.21-03.00.34:688][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-03.00.34:731][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-03.00.34:743][625]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-03.00.34:743][625]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerF48124E945AD298238DA4F889A4610EC.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-03.00.34:748][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 1.44 sec)
+[2024.02.21-03.00.34:750][625]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-03.00.34:750][625]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-03.00.45:353][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.21-03.00.48:980][178]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-03.00.48:985][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-03.00.48:985][178]PIE: New page: PIE session: Level_01 (Feb. 20, 2024, 11:00:48 a.m.)
+[2024.02.21-03.00.48:985][178]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-03.00.48:986][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001031s)
+[2024.02.21-03.00.48:986][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001059s)
+[2024.02.21-03.00.49:003][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.21-03.00.49:004][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-03.00.49:004][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-03.00.49:004][178]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-03.00.49:004][178]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2024.02.21-03.00.49:004][178]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-03.00.49:005][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-03.00.49:005][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-03.00.49:005][178]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-03.00.49:005][178]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-03.00.49:005][178]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-03.00.49:007][178]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-03.00.49:025][178]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-03.00.49:025][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-03.00.49:025][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-03.00.49:025][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-03.00.49:026][178]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.02.21-03.00.49:026][178]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.02.21-03.00.49:028][178]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.02.21-03.00.49:028][178]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.02.21-03.00.49:028][178]LogInit: FAudioDevice initialized with ID 19.
+[2024.02.21-03.00.49:028][178]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level_01'.
+[2024.02.21-03.00.49:028][178]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.21-03.00.49:030][178]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-03.00.49:031][178]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.20-19.00.49
+[2024.02.21-03.00.49:031][178]LogWorld: Bringing up level for play took: 0.000437
+[2024.02.21-03.00.49:032][178]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.21-03.00.49:033][178]PIE: Server logged in
+[2024.02.21-03.00.49:034][178]PIE: Play in editor total start time 0.049 seconds.
+[2024.02.21-03.00.51:253][431]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.00.53:945][754]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.00.55:454][935]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.00.58:161][260]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.02:162][740]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.04:729][ 48]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.09:462][616]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.11:254][831]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.12:979][ 38]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-03.01.21:111][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-03.01.21:111][  9]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-03.01.21:111][  9]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-03.01.21:112][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-03.01.21:114][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-03.01.21:118][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-03.01.21:135][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-03.01.21:135][  9]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.21-03.01.21:135][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.21-03.01.21:136][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.21-03.01.21:142][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.21-03.01.21:237][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.21-03.01.59:521][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
