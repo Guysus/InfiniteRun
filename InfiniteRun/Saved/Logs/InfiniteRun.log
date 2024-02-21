@@ -1349,3 +1349,31 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.21-16.47.48:525][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 323 ms)
 [2024.02.21-16.47.48:529][713]AssetCheck: New page: Asset Save: BP_InfiniteRun
 [2024.02.21-16.47.48:529][713]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
+[2024.02.21-16.49.48:372][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.21-16.49.48:375][257]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_01' took 0.024
+[2024.02.21-16.49.48:375][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_InfiniteRun] ([2] browsable assets)...
+[2024.02.21-16.49.48:375][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_InfiniteRun]
+[2024.02.21-16.49.48:379][257]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_InfiniteRun_Auto2
+[2024.02.21-16.49.48:379][257]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_InfiniteRun_Auto219FDFD2740625462C95274B0313C5D2C.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/Autosaves/Game/Blueprints/BP_InfiniteRun_Auto2.uasset'
+[2024.02.21-16.49.48:379][257]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.02.21-16.50.19:719][505]BlueprintLog: New page: Compile BP_InfiniteRun
+[2024.02.21-16.50.19:723][505]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] Could not find a variable named "StatueCount" in 'BP_InfiniteRun_C'.
+Make sure 'BP_InfiniteRun_C' has been compiled for  Set StatueCount
+[2024.02.21-16.50.19:724][505]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] Could not find a variable named "StatueCount" in 'BP_InfiniteRun_C'.
+Make sure 'BP_InfiniteRun_C' has been compiled for  Get StatueCount
+[2024.02.21-16.50.19:724][505]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] Could not find a variable named "StatueCount" in 'BP_InfiniteRun_C'.
+Make sure 'BP_InfiniteRun_C' has been compiled for  Get StatueCount
+[2024.02.21-16.50.19:725][505]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] The property associated with  Statue Count  could not be found in '/Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun_C'
+[2024.02.21-16.50.19:725][505]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] The property associated with  Statue Count  could not be found in '/Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun_C'
+[2024.02.21-16.50.19:725][505]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\InfiniteRun\InfiniteRun\Content\Blueprints\BP_InfiniteRun.uasset: [Compiler] The property associated with  Statue Count  could not be found in '/Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun_C'
+[2024.02.21-16.50.19:758][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.02.21-16.50.37:376][542]LogEditorTransaction: Undo Create Pin Link
+[2024.02.21-16.51.33:643][490]BlueprintLog: New page: Compile BP_InfiniteRun
+[2024.02.21-16.51.33:674][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.02.21-16.51.33:687][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-16.51.33:730][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_InfiniteRun" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset" SILENT=true
+[2024.02.21-16.51.33:736][490]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_InfiniteRun
+[2024.02.21-16.51.33:737][490]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_InfiniteRunEC57CEB648DA57633F445EA4EEB1DD17.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_InfiniteRun.uasset'
+[2024.02.21-16.51.33:741][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 377 ms)
+[2024.02.21-16.51.33:749][490]AssetCheck: New page: Asset Save: BP_InfiniteRun
+[2024.02.21-16.51.33:749][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_InfiniteRun.BP_InfiniteRun
