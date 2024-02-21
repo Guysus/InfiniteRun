@@ -3378,3 +3378,146 @@ Make sure 'BP_Player' has been compiled for  EnhancedInputAction IA_PlayerMoveme
 [2024.02.21-20.48.35:043][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 1.72 sec)
 [2024.02.21-20.48.35:043][746]AssetCheck: New page: Asset Save: Level_01
 [2024.02.21-20.48.35:043][746]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_01.Level_01
+[2024.02.21-20.51.31:263][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.02.21-20.53.49:098][500]BlueprintLog: New page: Compile BP_Player
+[2024.02.21-20.53.49:148][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.21-20.53.49:174][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-20.53.49:201][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.21-20.53.49:216][500]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.21-20.53.49:216][500]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerDA23F659424CE7DE4DF490B37F40BBD1.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.21-20.53.49:220][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.77 sec)
+[2024.02.21-20.53.49:223][500]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.21-20.53.49:223][500]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.21-20.54.05:884][335]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.21-20.54.05:888][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-20.54.05:888][335]PIE: New page: PIE session: Level_01 (Feb. 21, 2024, 4:54:05 a.m.)
+[2024.02.21-20.54.05:888][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.21-20.54.05:890][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001095s)
+[2024.02.21-20.54.05:890][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001120s)
+[2024.02.21-20.54.05:914][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.02.21-20.54.05:918][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-20.54.05:918][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-20.54.05:919][335]LogAIModule: Creating AISystem for world Level_01
+[2024.02.21-20.54.05:919][335]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2024.02.21-20.54.05:919][335]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-20.54.05:919][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-20.54.05:919][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-20.54.05:919][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-20.54.05:919][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-20.54.05:919][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-20.54.05:921][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-20.54.05:938][335]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.21-20.54.05:939][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-20.54.05:939][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-20.54.05:939][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-20.54.05:939][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.21-20.54.05:939][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.21-20.54.05:940][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.21-20.54.05:940][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.21-20.54.05:940][335]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.21-20.54.05:940][335]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level_01'.
+[2024.02.21-20.54.05:940][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.21-20.54.05:986][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-20.54.05:986][335]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.21-20.54.05:987][335]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.21-12.54.05
+[2024.02.21-20.54.05:987][335]LogWorld: Bringing up level for play took: 0.000508
+[2024.02.21-20.54.05:988][335]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.02.21-20.54.05:992][335]PIE: Server logged in
+[2024.02.21-20.54.05:993][335]PIE: Play in editor total start time 0.104 seconds.
+[2024.02.21-20.54.06:009][335]LogViewport: Scene viewport resized to 1549x944, mode Windowed.
+[2024.02.21-20.54.07:928][545]LogViewport: Scene viewport resized to 3840x2109, mode Windowed.
+[2024.02.21-20.54.10:512][850]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:520][851]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:529][852]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:537][853]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:545][854]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:554][855]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:562][856]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:570][857]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:579][858]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:587][859]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.10:595][860]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:496][968]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:504][969]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:513][970]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:521][971]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:530][972]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:538][973]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:546][974]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:555][975]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:562][976]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:571][977]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:579][978]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:588][979]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:596][980]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:604][981]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:613][982]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:621][983]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:629][984]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.11:638][985]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.12:163][ 48]LogBlueprintUserMessages: [BP_Player_C_0] Jump
+[2024.02.21-20.54.15:005][389]LogBlueprintUserMessages: [BP_Player_C_0] Crouching
+[2024.02.21-20.54.15:005][389]LogCharacter: BP_Player_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.02.21-20.54.17:504][689]LogBlueprintUserMessages: [BP_Player_C_0] Jump
+[2024.02.21-20.54.20:747][ 78]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:755][ 79]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:763][ 80]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:771][ 81]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:780][ 82]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:788][ 83]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:796][ 84]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:805][ 85]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:813][ 86]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:821][ 87]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:830][ 88]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:838][ 89]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:846][ 90]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:855][ 91]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:863][ 92]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:871][ 93]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:880][ 94]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:888][ 95]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:896][ 96]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:905][ 97]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:913][ 98]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.20:921][ 99]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:455][163]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:463][164]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:471][165]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:480][166]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:488][167]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:496][168]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:505][169]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:513][170]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:521][171]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:530][172]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:538][173]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:546][174]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:554][175]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:563][176]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:571][177]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:580][178]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:588][179]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:596][180]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:604][181]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.21:613][182]LogBlueprintUserMessages: [BP_Player_C_0] MoveRight/Laeft
+[2024.02.21-20.54.22:371][273]LogBlueprintUserMessages: [BP_Player_C_0] Jump
+[2024.02.21-20.54.25:776][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-20.54.25:776][677]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.21-20.54.25:777][677]LogSlate: Window 'InfiniteRun Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.21-20.54.25:780][677]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-20.54.25:780][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-20.54.25:783][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-20.54.25:786][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-20.54.25:809][677]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-20.54.25:809][677]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.21-20.54.25:810][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.21-20.54.25:811][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.21-20.54.25:816][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.21-20.54.25:883][678]LogPlayLevel: Display: Destroying online subsystem :Context_27
