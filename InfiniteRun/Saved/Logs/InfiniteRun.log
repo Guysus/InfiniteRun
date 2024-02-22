@@ -11134,3 +11134,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.22-16.25.13:401][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2024.02.22-16.25.13:468][988]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2024.02.22-16.25.15:766][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.22-16.54.51:580][696]LogEditorViewport: Clicking Background
+[2024.02.22-16.54.52:314][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
