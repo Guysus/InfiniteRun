@@ -30756,3 +30756,845 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.24-00.52.53:270][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2024.02.24-00.55.21:362][158]BlueprintLog: New page: Compile BP_Player
 [2024.02.24-00.55.21:437][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.24-00.58.32:048][915]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.24-00.58.32:054][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.24-00.58.32:054][915]PIE: New page: PIE session: Level_01 (Feb. 23, 2024, 8:58:32 a.m.)
+[2024.02.24-00.58.32:075][915]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_01
+[2024.02.24-00.58.32:077][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001878s)
+[2024.02.24-00.58.32:077][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_01.Level_01 to /Game/UEDPIE_0_Level_01.Level_01 (0.001912s)
+[2024.02.24-00.58.32:125][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.02.24-00.58.32:133][915]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.24-00.58.32:133][915]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.24-00.58.32:134][915]LogAIModule: Creating AISystem for world Level_01
+[2024.02.24-00.58.32:134][915]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2024.02.24-00.58.32:134][915]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.24-00.58.32:134][915]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.24-00.58.32:134][915]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.24-00.58.32:135][915]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.24-00.58.32:135][915]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.24-00.58.32:135][915]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.24-00.58.32:136][915]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.24-00.58.32:155][915]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.02.24-00.58.32:155][915]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.24-00.58.32:155][915]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.24-00.58.32:155][915]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.24-00.58.32:156][915]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.24-00.58.32:156][915]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.24-00.58.32:157][915]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.24-00.58.32:157][915]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.24-00.58.32:157][915]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.24-00.58.32:157][915]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level_01'.
+[2024.02.24-00.58.32:157][915]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.24-00.58.32:160][915]LogLoad: Game class is 'BP_InfiniteRun_C'
+[2024.02.24-00.58.32:161][915]LogWorld: Bringing World /Game/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2024.02.23-16.58.32
+[2024.02.24-00.58.32:161][915]LogWorld: Bringing up level for play took: 0.000899
+[2024.02.24-00.58.32:163][915]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.02.24-00.58.32:164][915]LogScript: Warning: Script Msg: The widget 'BP_ScoreWidget_C_0' was already added to the screen.
+[2024.02.24-00.58.32:164][915]LogScript: Warning: Script Msg called by: BP_Player_C /Game/UEDPIE_0_Level_01.Level_01:PersistentLevel.BP_Player_C_0
+[2024.02.24-00.58.32:164][915]PIE: Server logged in
+[2024.02.24-00.58.32:165][915]PIE: Play in editor total start time 0.112 seconds.
+[2024.02.24-00.58.32:166][915]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=299.966
+[2024.02.24-00.58.32:183][916]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=289.969
+[2024.02.24-00.58.32:281][917]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=271.545
+[2024.02.24-00.58.32:309][918]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=264.397
+[2024.02.24-00.58.32:318][919]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=262.017
+[2024.02.24-00.58.32:326][920]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=259.709
+[2024.02.24-00.58.32:335][921]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=257.275
+[2024.02.24-00.58.32:343][922]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=254.741
+[2024.02.24-00.58.32:353][923]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=251.817
+[2024.02.24-00.58.32:363][924]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=248.624
+[2024.02.24-00.58.32:373][925]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=245.721
+[2024.02.24-00.58.32:383][926]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=242.434
+[2024.02.24-00.58.32:392][927]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=239.387
+[2024.02.24-00.58.32:402][928]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=235.854
+[2024.02.24-00.58.32:414][929]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=231.442
+[2024.02.24-00.58.32:424][930]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=227.779
+[2024.02.24-00.58.32:434][931]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=223.862
+[2024.02.24-00.58.32:444][932]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=220.127
+[2024.02.24-00.58.32:453][933]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=216.407
+[2024.02.24-00.58.32:462][934]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=212.480
+[2024.02.24-00.58.32:472][935]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=208.689
+[2024.02.24-00.58.32:481][936]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=204.575
+[2024.02.24-00.58.32:490][937]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=200.636
+[2024.02.24-00.58.32:501][938]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=195.854
+[2024.02.24-00.58.32:510][939]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.463
+[2024.02.24-00.58.32:519][940]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:529][941]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:538][942]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:548][943]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:557][944]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:568][945]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:577][946]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:586][947]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:596][948]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:605][949]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:615][950]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:624][951]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:636][952]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:646][953]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:654][954]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:664][955]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:673][956]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:681][957]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:690][958]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:698][959]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:707][960]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:717][961]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:725][962]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:735][963]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:744][964]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:756][965]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:765][966]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:775][967]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:784][968]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:793][969]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:803][970]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:812][971]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:821][972]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:831][973]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:840][974]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:850][975]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:858][976]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:868][977]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:877][978]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:886][979]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:896][980]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:904][981]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:915][982]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:923][983]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:933][984]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:942][985]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:951][986]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:960][987]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:970][988]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:981][989]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:990][990]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.32:999][991]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:008][992]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:017][993]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:026][994]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:036][995]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:045][996]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:055][997]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:065][998]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:073][999]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:086][  0]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:094][  1]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:104][  2]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:114][  3]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:123][  4]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:133][  5]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:142][  6]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:151][  7]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:160][  8]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:169][  9]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:179][ 10]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:188][ 11]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:198][ 12]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:207][ 13]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:217][ 14]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:225][ 15]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:235][ 16]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:244][ 17]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:254][ 18]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:264][ 19]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:273][ 20]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:282][ 21]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:291][ 22]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:300][ 23]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:309][ 24]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:318][ 25]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:328][ 26]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:337][ 27]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:348][ 28]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:356][ 29]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:366][ 30]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:374][ 31]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:384][ 32]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:393][ 33]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:403][ 34]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:416][ 35]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:424][ 36]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:434][ 37]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:443][ 38]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:452][ 39]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:462][ 40]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:472][ 41]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:482][ 42]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:490][ 43]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:501][ 44]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:510][ 45]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:520][ 46]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:528][ 47]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:538][ 48]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:548][ 49]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:557][ 50]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:566][ 51]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:575][ 52]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:585][ 53]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:593][ 54]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:603][ 55]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:612][ 56]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:622][ 57]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:632][ 58]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:640][ 59]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:650][ 60]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:659][ 61]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:668][ 62]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:677][ 63]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:687][ 64]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:696][ 65]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:705][ 66]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:715][ 67]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:723][ 68]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:733][ 69]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:743][ 70]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:755][ 71]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:764][ 72]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:772][ 73]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:782][ 74]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:791][ 75]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:801][ 76]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:810][ 77]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:819][ 78]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:828][ 79]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:838][ 80]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:847][ 81]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:856][ 82]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:865][ 83]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:874][ 84]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:884][ 85]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:893][ 86]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:903][ 87]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:911][ 88]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:921][ 89]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:930][ 90]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:939][ 91]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:949][ 92]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:957][ 93]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:967][ 94]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:977][ 95]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:986][ 96]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.33:995][ 97]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:004][ 98]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:014][ 99]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:023][100]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:033][101]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:042][102]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:051][103]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:060][104]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:070][105]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:082][106]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:091][107]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:101][108]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:110][109]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:119][110]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:128][111]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:138][112]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:147][113]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:156][114]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:166][115]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:175][116]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:184][117]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:193][118]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:202][119]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:211][120]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:220][121]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:230][122]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:239][123]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:249][124]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:257][125]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:266][126]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:275][127]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:285][128]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:295][129]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:304][130]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:314][131]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:322][132]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:332][133]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:340][134]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:350][135]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:358][136]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:369][137]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:378][138]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:387][139]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:397][140]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:405][141]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:418][142]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:426][143]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:437][144]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:446][145]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:456][146]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:465][147]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:474][148]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:484][149]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:493][150]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:503][151]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:511][152]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:521][153]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:530][154]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:539][155]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:549][156]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:557][157]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:567][158]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:577][159]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:586][160]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:594][161]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:604][162]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:614][163]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:622][164]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:632][165]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:642][166]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:651][167]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:660][168]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:669][169]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:678][170]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:687][171]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:697][172]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:706][173]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:717][174]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:725][175]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:735][176]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:747][177]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:756][178]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:765][179]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:774][180]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:785][181]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:793][182]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:803][183]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:812][184]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:822][185]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:831][186]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:840][187]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:850][188]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:859][189]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:868][190]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:877][191]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:887][192]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:896][193]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:905][194]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:915][195]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:924][196]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:934][197]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:943][198]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:952][199]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:961][200]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:971][201]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:979][202]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:989][203]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.34:999][204]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:007][205]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:017][206]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:025][207]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:035][208]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:044][209]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:053][210]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:064][211]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:073][212]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:085][213]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:094][214]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:104][215]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:114][216]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:122][217]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:133][218]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:141][219]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:151][220]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:159][221]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:169][222]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:177][223]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:187][224]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:196][225]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:206][226]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:215][227]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:224][228]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:234][229]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:242][230]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:252][231]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:261][232]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:271][233]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:281][234]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:289][235]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:299][236]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:308][237]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:317][238]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:326][239]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:336][240]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:345][241]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:354][242]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:364][243]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:373][244]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:383][245]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:391][246]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:401][247]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:414][248]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:423][249]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:432][250]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:441][251]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:451][252]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:459][253]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:469][254]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:479][255]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:488][256]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:498][257]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:507][258]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:516][259]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:525][260]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:535][261]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:544][262]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:553][263]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:562][264]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:571][265]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:581][266]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:589][267]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:599][268]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:607][269]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:619][270]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:627][271]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:638][272]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:647][273]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:655][274]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:665][275]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:673][276]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:683][277]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:693][278]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:702][279]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:711][280]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:720][281]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:729][282]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:739][283]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:754][284]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:760][285]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:770][286]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:780][287]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:788][288]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:798][289]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:806][290]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:817][291]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:825][292]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:836][293]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:844][294]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:854][295]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:862][296]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:872][297]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:882][298]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:890][299]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:901][300]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:909][301]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:919][302]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:927][303]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:937][304]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:946][305]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:957][306]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:966][307]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:975][308]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:984][309]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.35:993][310]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:002][311]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:011][312]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:020][313]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:031][314]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:039][315]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:049][316]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:057][317]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:067][318]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:079][319]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:089][320]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:099][321]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:107][322]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:117][323]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:125][324]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:135][325]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:144][326]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:153][327]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:162][328]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:172][329]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:182][330]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:190][331]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:200][332]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:208][333]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:218][334]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:226][335]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:238][336]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:247][337]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:255][338]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:265][339]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:273][340]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:283][341]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:291][342]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:303][343]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:311][344]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:321][345]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:330][346]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:339][347]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:348][348]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:357][349]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:367][350]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:376][351]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:386][352]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:394][353]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:404][354]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:417][355]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:425][356]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:435][357]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:444][358]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:454][359]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:463][360]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:472][361]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:481][362]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:490][363]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:499][364]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:508][365]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:518][366]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:527][367]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:537][368]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:547][369]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:555][370]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:564][371]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:573][372]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:583][373]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:592][374]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:602][375]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:611][376]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:621][377]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:629][378]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:639][379]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:649][380]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:658][381]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:667][382]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:676][383]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:685][384]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:694][385]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:704][386]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:713][387]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:722][388]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:732][389]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:741][390]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:753][391]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:762][392]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:772][393]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:781][394]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:790][395]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:800][396]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:809][397]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:818][398]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:827][399]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:836][400]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:845][401]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:855][402]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:865][403]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:874][404]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:883][405]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:892][406]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:901][407]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:910][408]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:919][409]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:929][410]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:938][411]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:948][412]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:956][413]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:966][414]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:974][415]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:984][416]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.36:993][417]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:004][418]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:012][419]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:021][420]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:031][421]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:040][422]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:050][423]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:059][424]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:068][425]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:081][426]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:090][427]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:100][428]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:108][429]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:117][430]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:126][431]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:136][432]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:144][433]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:154][434]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:164][435]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:173][436]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:183][437]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:191][438]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:201][439]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:210][440]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:220][441]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:228][442]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:237][443]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:248][444]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:256][445]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:265][446]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:275][447]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:286][448]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:294][449]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:303][450]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:312][451]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:322][452]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:331][453]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:340][454]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:350][455]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:358][456]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:368][457]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:376][458]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:385][459]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:394][460]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:404][461]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:417][462]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:426][463]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:436][464]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:444][465]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:454][466]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:463][467]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:472][468]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:482][469]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:492][470]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:502][471]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:511][472]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:520][473]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:529][474]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:538][475]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:547][476]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:557][477]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:567][478]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:575][479]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:584][480]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:592][481]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:602][482]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:612][483]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:621][484]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:632][485]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:640][486]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:650][487]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:659][488]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:668][489]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:677][490]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:687][491]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:696][492]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:706][493]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:715][494]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:724][495]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:734][496]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:744][497]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:756][498]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:767][499]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:776][500]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:785][501]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:794][502]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:804][503]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:812][504]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:821][505]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:831][506]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:841][507]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:850][508]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:859][509]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:868][510]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:876][511]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:886][512]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:895][513]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:905][514]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:915][515]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:924][516]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:933][517]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:942][518]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:952][519]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:960][520]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:970][521]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:980][522]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:988][523]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.37:999][524]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:007][525]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:017][526]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:026][527]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:037][528]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:045][529]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:055][530]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:064][531]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:073][532]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:086][533]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:094][534]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:104][535]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:114][536]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:123][537]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:132][538]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:141][539]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:150][540]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:159][541]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:169][542]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:178][543]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:187][544]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:197][545]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:205][546]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:215][547]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:223][548]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:233][549]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:241][550]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:252][551]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:260][552]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:270][553]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:280][554]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:288][555]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:298][556]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:307][557]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:318][558]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:326][559]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:336][560]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:345][561]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:355][562]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:365][563]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:373][564]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:383][565]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:392][566]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:402][567]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:414][568]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:423][569]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:433][570]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:442][571]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:451][572]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:460][573]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:470][574]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:479][575]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:488][576]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:498][577]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:506][578]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:516][579]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:525][580]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:534][581]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:543][582]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:552][583]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:561][584]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:571][585]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:580][586]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:589][587]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:600][588]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:608][589]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:618][590]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:628][591]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:637][592]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:647][593]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:656][594]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:666][595]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:674][596]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:683][597]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:692][598]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:702][599]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:711][600]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:720][601]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:730][602]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:740][603]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:752][604]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:761][605]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:771][606]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:781][607]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:789][608]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:799][609]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:808][610]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:818][611]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:826][612]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:835][613]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:845][614]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:854][615]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:864][616]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:873][617]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:883][618]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:891][619]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:901][620]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:910][621]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:919][622]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:927][623]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:938][624]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:947][625]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:956][626]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:966][627]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:975][628]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:984][629]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.38:993][630]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:002][631]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:011][632]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:020][633]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:030][634]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:039][635]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:049][636]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:058][637]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:067][638]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:077][639]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:089][640]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:099][641]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:107][642]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:117][643]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:126][644]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:135][645]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:145][646]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:154][647]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:164][648]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:172][649]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:182][650]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:191][651]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:200][652]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:208][653]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:220][654]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:228][655]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:237][656]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:247][657]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:256][658]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:265][659]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:273][660]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:284][661]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:293][662]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:303][663]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:311][664]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:321][665]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:330][666]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:339][667]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:349][668]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:358][669]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:368][670]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:377][671]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:386][672]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:395][673]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:405][674]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:416][675]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:426][676]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:436][677]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:445][678]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:454][679]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:464][680]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:473][681]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:482][682]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:491][683]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:501][684]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:510][685]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:519][686]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:527][687]LogBlueprintUserMessages: [BP_Player_C_0] X=-710.000 Y=0.000 Z=191.972
+[2024.02.24-00.58.39:565][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.24-00.58.39:565][687]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_01
+[2024.02.24-00.58.39:565][687]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-00.58.39:565][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-00.58.39:568][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.24-00.58.39:572][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-00.58.39:610][687]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.24-00.58.39:610][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.24-00.58.39:610][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.24-00.58.39:612][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.24-00.58.39:616][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.24-00.58.39:618][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.02.24-00.58.39:679][688]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.02.24-00.59.17:848][  1]LogSlate: Took 0.005352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.02.24-00.59.38:855][491]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.24-01.01.07:107][705]BlueprintLog: New page: Compile BP_ScoreWidget
+[2024.02.24-01.01.07:172][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.24-01.01.07:212][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-01.01.07:262][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ScoreWidget" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_ScoreWidget.uasset" SILENT=true
+[2024.02.24-01.01.07:266][705]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ScoreWidget
+[2024.02.24-01.01.07:266][705]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_ScoreWidget0F314F924404474B98ED4BA975BCFCF3.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_ScoreWidget.uasset'
+[2024.02.24-01.01.07:271][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.70 sec)
+[2024.02.24-01.01.07:274][705]AssetCheck: New page: Asset Save: BP_ScoreWidget
+[2024.02.24-01.01.07:274][705]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/BP_ScoreWidget.BP_ScoreWidget
+[2024.02.24-01.02.46:706][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.02.24-01.02.59:332][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
