@@ -30743,3 +30743,16 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.24-00.48.41:685][719]AssetCheck: New page: Asset Save: BP_Game_Over
 [2024.02.24-00.48.41:685][719]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/BP_Game_Over.BP_Game_Over
 [2024.02.24-00.48.49:654][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.02.24-00.50.08:992][577]BlueprintLog: New page: Compile BP_Game_Over
+[2024.02.24-00.50.09:046][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.02.24-00.52.53:064][818]BlueprintLog: New page: Compile BP_Player
+[2024.02.24-00.52.53:141][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.02.24-00.52.53:179][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-00.52.53:239][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.02.24-00.52.53:257][818]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.02.24-00.52.53:257][818]LogSavePackage: Moving '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Saved/BP_PlayerF6EF5C884030DEC6DF041BA4079420CC.tmp' to '../../../../Unreal Projects/InfiniteRun/InfiniteRun/Content/Blueprints/BP_Player.uasset'
+[2024.02.24-00.52.53:262][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 2.64 sec)
+[2024.02.24-00.52.53:270][818]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.24-00.52.53:270][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.02.24-00.55.21:362][158]BlueprintLog: New page: Compile BP_Player
+[2024.02.24-00.55.21:437][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
